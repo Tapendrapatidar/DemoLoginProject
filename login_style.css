@@ -1,0 +1,125 @@
+.container{
+	height: auto;
+	width: 400px;
+	margin: auto;
+	margin-top: 5%;
+	min-width: 200px;
+	max-width: 450px;
+
+}
+
+.logo{
+	text-align: center;
+}
+.slogan{
+	text-align: center;
+	margin-top: -4%;
+	color: grey;
+}
+.welcome{
+	margin-top: 50px;
+}
+.welcome h2{
+	text-align: center;
+
+}
+.welcome p{
+	text-align: center;
+	margin-top: -2.5%;
+	color: darkgrey;
+}
+#input{
+	width: 99%;
+	height: 40px;
+	border-radius: 8px;
+	background: #e6e6ff;
+	border: none;
+	text-indent: 10px;
+	margin-top: -2%;
+}
+.remember{
+	margin-top: 5%;
+	display: inline-flex;
+	width: 100%;
+}
+.remember_me{
+	width: 50%;
+}
+.forgot{
+	text-align: right;
+	width: 50%;
+}
+.forgot a{
+	color: black;
+	text-decoration: none;
+	text-align: right;
+}
+#sign_in{
+	width:100%;
+	display: inline-block;
+	margin-top: 5%;
+	height: 45px;
+	border-radius: 8px;
+  	background-image: linear-gradient(to right, blue , skyblue);
+  	text-decoration: none;
+  	color: white;
+	font-size: 150;
+	border: none;
+	cursor: pointer;
+/*	transition-duration: 20s;*/
+}
+
+
+#password{
+	width: 99%;
+	height: 40px;
+	border-radius: 8px;
+	background: #e6e6ff;
+	border: none;
+	text-indent: 10px;
+	margin-top: -2%;
+}
+#eye{
+
+/*
+	display: inline-flex;
+	height: 45px;*/
+	margin-top: 40;
+	cursor: pointer;
+}
+
+@media only screen and (min-width :200px){
+	#eye{
+		margin-left: 350px;
+	cursor: pointer;
+	}
+}
+
+.eye{
+	margin-top: -30px;
+	width: 40px;
+	text-align: right;
+	margin-left:20px;
+}
+
+/*.sign_in:hover {
+	width:100%;
+	display: inline-block;
+	margin-top: 5%;
+	height: 45px;
+	border-radius: 8px;
+	background-image: linear-gradient(to right, blue , skyblue);
+  	text-decoration: none;
+  	color: white;
+	font-size: 150;
+	border: none;
+	cursor: pointer;
+}*/
+/*div{
+	border: 1px solid black;
+}*/
+
+	#password[type="password"]::-ms-reveal,
+	#password[type="password"]::-ms-clear{
+  	display: none;
+	} 
